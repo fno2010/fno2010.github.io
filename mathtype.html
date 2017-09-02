@@ -1,0 +1,46 @@
+---
+layout: mathjax
+title: MathType Render based on MathJax
+---
+{% include JB/setup %}
+<div class="form-group" style="display: none" id="editor-form">
+  <label for="editor">Editor:</label>
+  <textarea class="form-control" rows="5" onkeyup="renderEditor" id="editor"></textarea>
+  <hr/>
+  <label for="display">Equation:</label>
+</div>
+
+<div id="display">$${}$$</div>
+
+<script>
+function queryStr() {
+  var _this = this
+  window.location.search
+    .substr(1)
+    .split('&')
+    .forEach(function(p) {
+      k_v = p.split('=')
+      _this[k_v[0]] = k_v[1]
+    })
+}
+
+var param_list = new queryStr()
+var equation = param_list['eq']
+
+function renderEquation(equation) {
+  var math = MathJax.Hub.getAllJax("display")[0];
+  MathJax.Hub.Queue(["Text", math, equation]);
+}
+
+function renderEditor() {
+  var ed = document.getElementById('editor')
+  renderEquation(ed.value)
+}
+
+if (equation !== undefined) {
+  renderEquation(unescape(equation))
+} else {
+  document.getElementById('editor-form').style.display = ''
+  document.getElementById('editor').onkeyup = renderEditor
+}
+</script>
