@@ -7,7 +7,7 @@ title = "Accomplish&shy;ments"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 90
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -20,27 +20,27 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "Neural Networks and Deep Learning"
-  organization = "Coursera"
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  title = "Second prize in Chinese National Undergraduate Electronic Design Contest"
+  organization = ""
+  certificate_url = ""
+  date_start = "2014-08-01"
   date_end = ""
   description = ""
 
 [[item]]
-  title = "Blockchain Fundamentals"
-  organization = "edX"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  title = "Honor Mention prize in ICM/MCM"
+  organization = ""
+  certificate_url = ""
+  date_start = "2014-05-01"
   date_end = ""
   description = ""
   
 [[item]]
-  title = "Intro to Python"
-  organization = "DataCamp"
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  title = "First prize in Chinese National Undergraduate Mathematics Competition"
+  organization = ""
+  certificate_url = ""
+  date_start = "2012-09-01"
+  date_end = ""
   description = ""
 
 +++
