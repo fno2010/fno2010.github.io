@@ -12,6 +12,7 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
     keep_history: true
+    fqdn: jensen-zhang.site
     target_branch: master
     on:
       branch: hugo
