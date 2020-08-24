@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on From Now On</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on From Now On</description>
+    <title>sigcomm on From Now On</title>
+    <link>/tags/sigcomm/</link>
+    <description>Recent content in sigcomm on From Now On</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2019 11:41:17 -0400</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sigcomm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>2020 is an amazing year when we experienced many many &amp;ldquo;first times&amp;rdquo;. Good news and bad news.
 First time, my first-author poster COC: Hierarchical Coflow Ordering for WAN Bandwidth Optimization in Inter-Data Center was accepted by SIGCOMM. First time, I participated SRC (Student Research Competition) in SIGCOMM. First time, I presented a poster in a Hubs VR room.
 Yes, SIGCOMM poster/demo committee decided to use Mozilla Hubs to present each poster/demo online this year.</description>
-    </item>
-    
-    <item>
-      <title>Research Reading List Resuming Plan</title>
-      <link>/post/resume-research-reading-list/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
-      
-      <guid>/post/resume-research-reading-list/</guid>
-      <description>I have read a bunch of research papers in the past few years. But I fail to remember most of them because of the lack of summary and better organization. It is time to resume the research reading list for myself.
-Although there are already several very good public reading lists about computer networking, e.g., Cristian Lumezanu&amp;rsquo;s SDN Reading List and Richard Yang&amp;rsquo;s Lecture, they are so general that they do not match my research interests very well.</description>
     </item>
     
   </channel>

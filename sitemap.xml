@@ -68,7 +68,17 @@
   </url>
   
   <url>
+    <loc>/tags/poster/</loc>
+    <lastmod>2019-04-22T11:41:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
+    <lastmod>2019-04-22T11:41:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/sigcomm2020-poster-present/</loc>
     <lastmod>2019-04-22T11:41:17-04:00</lastmod>
   </url>
   
@@ -79,6 +89,11 @@
   
   <url>
     <loc>/post/resume-research-reading-list/</loc>
+    <lastmod>2019-04-22T11:41:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sigcomm/</loc>
     <lastmod>2019-04-22T11:41:17-04:00</lastmod>
   </url>
   
