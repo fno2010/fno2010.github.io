@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reading on From Now On</title>
-    <link>/tags/reading/</link>
-    <description>Recent content in reading on From Now On</description>
+    <title>nai on From Now On</title>
+    <link>/tags/nai/</link>
+    <description>Recent content in nai on From Now On</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
     
-	<atom:link href="/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/nai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/post/nai-related-work-summary/</guid>
       <description>Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
 To better understand new challenges on this direction, we make this literate review.</description>
-    </item>
-    
-    <item>
-      <title>Research Reading List Resuming Plan</title>
-      <link>/post/resume-research-reading-list/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
-      
-      <guid>/post/resume-research-reading-list/</guid>
-      <description>I have read a bunch of research papers in the past few years. But I fail to remember most of them because of the lack of summary and better organization. It is time to resume the research reading list for myself.
-Although there are already several very good public reading lists about computer networking, e.g., Cristian Lumezanu&amp;rsquo;s SDN Reading List and Richard Yang&amp;rsquo;s Lecture, they are so general that they do not match my research interests very well.</description>
     </item>
     
   </channel>

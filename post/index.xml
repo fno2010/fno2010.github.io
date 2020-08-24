@@ -6,15 +6,25 @@
     <description>Recent content in Posts on From Now On</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2019 11:41:17 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Literate Review of Related Works on NAI (Network-Application Integration)</title>
+      <link>/post/nai-related-work-summary/</link>
+      <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
+      
+      <guid>/post/nai-related-work-summary/</guid>
+      <description>Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
+To better understand new challenges on this direction, we make this literate review.</description>
+    </item>
+    
+    <item>
       <title>Present My SIGCOMM Poster in a Hubs VR Room</title>
       <link>/post/sigcomm2020-poster-present/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
+      <pubDate>Mon, 24 Aug 2020 18:00:00 -0400</pubDate>
       
       <guid>/post/sigcomm2020-poster-present/</guid>
       <description>2020 is an amazing year when we experienced many many &amp;ldquo;first times&amp;rdquo;. Good news and bad news.

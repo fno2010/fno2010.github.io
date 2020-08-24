@@ -6,33 +6,51 @@
     <description>Recent content in Tags on From Now On</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Apr 2019 11:41:17 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>poster</title>
-      <link>/tags/poster/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
+      <title>literate review</title>
+      <link>/tags/literate-review/</link>
+      <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
       
-      <guid>/tags/poster/</guid>
+      <guid>/tags/literate-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nai</title>
+      <link>/tags/nai/</link>
+      <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
+      
+      <guid>/tags/nai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reading</title>
       <link>/tags/reading/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
+      <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
       
       <guid>/tags/reading/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>poster</title>
+      <link>/tags/poster/</link>
+      <pubDate>Mon, 24 Aug 2020 18:00:00 -0400</pubDate>
+      
+      <guid>/tags/poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>sigcomm</title>
       <link>/tags/sigcomm/</link>
-      <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
+      <pubDate>Mon, 24 Aug 2020 18:00:00 -0400</pubDate>
       
       <guid>/tags/sigcomm/</guid>
       <description></description>

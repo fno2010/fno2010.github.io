@@ -27,10 +27,11 @@
   
     
   
-  <meta name="description" content="Ph.D. Candidate of Computer Science">
+  <meta name="description" content="Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
+To better understand new challenges on this direction, we make this literate review.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/">
+  <link rel="alternate" hreflang="en-us" href="/post/nai-related-work-summary/">
 
   
 
@@ -97,15 +98,12 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="From Now On">
-  <link rel="feed" href="/post/index.xml" type="application/rss+xml" title="From Now On">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/post/">
+  <link rel="canonical" href="/post/nai-related-work-summary/">
 
   
   
@@ -120,19 +118,22 @@
   <meta property="twitter:creator" content="@zhang_fno">
   
   <meta property="og:site_name" content="From Now On">
-  <meta property="og:url" content="/post/">
-  <meta property="og:title" content="Posts | From Now On">
-  <meta property="og:description" content="Ph.D. Candidate of Computer Science"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/post/nai-related-work-summary/">
+  <meta property="og:title" content="Literate Review of Related Works on NAI (Network-Application Integration) | From Now On">
+  <meta property="og:description" content="Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
+To better understand new challenges on this direction, we make this literate review."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2020-08-24T18:46:17-04:00">
+  <meta property="article:published_time" content="2020-08-24T18:46:17-04:00">
+  
+  <meta property="article:modified_time" content="2020-08-24T18:46:17-04:00">
   
 
   
 
   
 
-  <title>Posts | From Now On</title>
+  <title>Literate Review of Related Works on NAI (Network-Application Integration) | From Now On</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -308,7 +309,9 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
+  
 
 
 
@@ -325,62 +328,14 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Literate Review of Related Works on NAI (Network-Application Integration)</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Posts</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-
-  
-
-  
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/post/nai-related-work-summary/" itemprop="url">Literate Review of Related Works on NAI (Network-Application Integration)</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 
@@ -420,215 +375,305 @@
   
 
   
+    
+
+  
 
 </div>
 
-      
-    </div>
-
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
 </div>
 
-    
-  
-    
-      
 
 
+  <div class="article-container">
 
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/post/sigcomm2020-poster-present/" itemprop="url">Present My SIGCOMM Poster in a Hubs VR Room</a>
-    </h3>
-
-    
     <div class="article-style" itemprop="articleBody">
-      2020 is an amazing year when we experienced many many &ldquo;first times&rdquo;. Good news and bad news.
-First time, my first-author …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
       
 
+<p>Recently, my research interest moves to NAI (Network-Application
+Integration), which we think will become a hot direction of networking
+systems in the next few years. While it is not a totally new topic, because
+of emerging application service architectures (<em>e.g.</em>, CDN, MEC, Live Video
+Streaming, Cloud Gaming) and networking architectures (<em>e.g.</em>, Programmable
+Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very
+well.</p>
+
+<p>To better understand new challenges on this direction, we make this literate
+review. For each particular existing work, we try to figure out the following
+questions:</p>
+
+<ul>
+<li>What is its design space?
+
+<ul>
+<li>In its design, which information is required to be fed by applications?</li>
+<li>In its design, which information is required to be exposed by the network?</li>
+</ul></li>
+<li>What is its potential issues?
+
+<ul>
+<li>If possible, how easily can it be extended to other use cases?</li>
+<li>Why it cannot work well in some cases?</li>
+</ul></li>
+</ul>
+
+<h2 id="related-works">Related Works</h2>
+
+<p>As a starting point, we collect related works published on CoNEXT, SOSP,
+NSDI, and SIGCOMM from 2007 to 2019.</p>
+
+<p>The current literate review covers papers in the following list. And the list
+may grow in the future, if we find more highly related works.</p>
+
+
+<div class="bibtex_display" bibtexkeys="Wiser|PVM|CIPT|Timecard|Footprint|VDX|Akamai2018|Taiji|E2E"></div>
+
+
+<h2 id="review-cards">Review Cards</h2>
+
+<h3 id="wiser">Wiser</h3>
+
+<p><strong>High-level Goal</strong>: design a practical interdomain routing protocol that
+enables ISPs to jointly control routing and compute good end-to-end paths
+while acting in their own interest.</p>
+
+<p>$$
+\text{cost}<em>I = \min</em>{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))
+$$</p>
+
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>$I$</td>
+<td>An ISP</td>
+</tr>
+
+<tr>
+<td>$paths$</td>
+<td>All possible end-to-end paths</td>
+</tr>
+
+<tr>
+<td>$\text{cost}_I$</td>
+<td>Expected external cost for ISP $I$</td>
+</tr>
+
+<tr>
+<td>$\text{traffic}_I(p)$</td>
+<td>The rate of traffic carried along path $p$ over some period</td>
+</tr>
+
+<tr>
+<td>$\text{intcost}_I(p)$</td>
+<td>The internal cost of path $p$ in ISP $I$</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Basic Idea</strong>: Each ISP estimate its own external cost and advertise to its
+neighbors the total cost to reach the destination. And each router selects
+the lowest cost path.</p>
+
+<p><strong>Potential Extension to NAI</strong>: For ISPs serving their own CDN, those ISPs can
+compute their own internal cost based on their CDN loads.</p>
+
+<p><strong>Limitation</strong>: Lowest-cost routing per destination may lead to congestion.</p>
+
+<h3 id="path-verification-mechanism-pvm">Path Verification Mechanism (PVM)</h3>
+
+<h3 id="cooperative-ip-transit-cipt">Cooperative IP Transit (CIPT)</h3>
+
+<h3 id="timecard">Timecard</h3>
+
+<p><img src="timecard-fig1.png" alt="" /></p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/reading/">reading</a>
+  
+  <a class="badge badge-light" href="">literate review</a>
+  
+  <a class="badge badge-light" href="/tags/nai/">nai</a>
+  
+</div>
+
+
+
+
+    
+      
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="https://s.gravatar.com/avatar/8d1323d0bb07f02d4ed8c914870a8299?s=200')" itemprop="image" alt="Avatar">
+  
+
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/authors/admin">Jingxuan (Jensen) Zhang</a></h5>
+    <h6 class="card-subtitle">Ph.D. Candidate of Computer Science</h6>
+    <p class="card-text" itemprop="description">My research interests include computer networking system, data analytics system and machine learning.</p>
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
       
         
-
-
-
-<meta content="2020-08-24 18:00:00 -0400 -0400" itemprop="datePublished">
-<meta content="2020-08-24 18:00:00 -0400 -0400" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
       
-    
-    <time>Aug 24, 2020</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/post/sigcomm2020-poster-present/#disqus_thread"></a>
-  
-
-  
-
-  
-
-</div>
-
       
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
       
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/post/resume-research-reading-list/" itemprop="url">Research Reading List Resuming Plan</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      I have read a bunch of research papers in the past few years. But I fail to remember most of them because of the lack of summary and …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
       
-
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:jingxuan.n.zhang@gmail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
       
         
-
-
-
-<meta content="2019-04-22 11:41:17 -0400 -0400" itemprop="datePublished">
-<meta content="2019-04-22 11:41:17 -0400 -0400" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
       
-    
-    <time>Apr 22, 2019</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/post/resume-research-reading-list/#disqus_thread"></a>
-  
-
-  
-
-  
-
-</div>
-
       
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/zhang_fno" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.mendeley.com/profiles/jingxuan-jensen-zhang/" target="_blank" rel="noopener">
+          <i class="ai ai-mendeley"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/fno2010" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
   </div>
 </div>
 
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/post/resume-research-reading-list/">Research Reading List Resuming Plan</a></li>
+          
+        </ul>
+      </div>
+      
     
-  
 
-  
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jensenzhang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
 
 
-</div>
+
+  </div>
+</article>
+
 <div class="container">
   <footer class="site-footer">
   
@@ -684,6 +729,9 @@ First time, my first-author …
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
@@ -702,8 +750,12 @@ First time, my first-author …
 
       
       
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
 
       
+      
+      <script src="https://cdn.rawgit.com/pcooksey/bibtex-js/2e6098d/src/bibtex_js.js" integrity="sha512-5Uva6bJJnCoMS5S/gAcJ0f3kCiMxvmhLwJIQ+UST+TCv5x90yIjfXswxrHFtsgsuUqw/wLsP74ny77GShJB1qw==" crossorigin="anonymous" async></script>
       
     
 
@@ -743,6 +795,51 @@ First time, my first-author …
     
 
     
+    
+    
+    
+    
+    
+    <bibtex src="/ref/reading.bib"></bibtex>
+    
+    
+    
+    <div class="if bibtex_template" style="display: none;">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      <span class="if author">
+        <span class="author article-metadata li-cite-author"></span>.
+      </span>
+      <span class="if title">
+        <span class="if !url">
+          <strong><span class="title"></span></strong>,
+        </span>
+        <span class="if url">
+          <a class="url"><strong><span class="title"></span></strong></a>,
+        </span>
+      </span>
+      <span>
+        <span class="if journal"><em><span class="journal"></span></em>,</span>
+        <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+        <span class="if volume"><span class="volume"></span>,</span>
+        <span class="if journal number">(<span class="number"></span>),</span>
+        <span class="if pages"> pages <span class="pages"></span>,</span>
+        <span class="if month"><span class="month"></span>,</span>
+        <span class="if year"><span class="year"></span>.</span>
+        <span>
+          <button type="button" class="bibtexVar btn btn-outline-primary my-1 mr-1 btn-sm" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+            Cite
+          </button>
+        </span>
+      </span>
+      <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+        <div class="well">
+          <pre><span class="bibtexraw noread"></span></pre>
+        </div>
+      </div>
+      <div style="display:none"><span class="bibtextype"></span></div>
+      <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+    </div>
     
 
     
