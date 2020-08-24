@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Richard Yang on From Now On</title>
+    <link>/authors/y.-richard-yang/</link>
+    <description>Recent content in Y. Richard Yang on From Now On</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/y.-richard-yang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Toward Optimal Software-Defined Interdomain Routing</title>
+      <link>/publication/s-di/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/s-di/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicorn: Unified Resource Orchestration for Multi-Domain, Geo-Distributed Data Analytics</title>
+      <link>/publication/unicorn/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/unicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/re-sa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prophet: Fast Accurate Model-Based Throughput Prediction for Reactive Flow in DC Networks</title>
+      <link>/publication/prophet-infocom/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/prophet-infocom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

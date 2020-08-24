@@ -20,5 +20,77 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Cloud computing</title>
+      <link>/tags/cloud-computing/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudware</title>
+      <link>/tags/cloudware/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cloudware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Container</title>
+      <link>/tags/container/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User experience</title>
+      <link>/tags/user-experience/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/user-experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micro-service</title>
+      <link>/tags/micro-service/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/micro-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/tags/service/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software paradigm</title>
+      <link>/tags/software-paradigm/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/software-paradigm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparent computing</title>
+      <link>/tags/transparent-computing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/transparent-computing/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

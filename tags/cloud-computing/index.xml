@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud computing on From Now On</title>
+    <link>/tags/cloud-computing/</link>
+    <description>Recent content in Cloud computing on From Now On</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards Cloudware Paradigm for Cloud Computing</title>
+      <link>/publication/cloudware-cloud/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cloudware-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudware: An Emerging Software Paradigm for Cloud Computing</title>
+      <link>/publication/cloudware-internetware/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cloudware-internetware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Emerging Cloudware Paradigm for Transparent Computing</title>
+      <link>/publication/cloudware-ucc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cloudware-ucc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
