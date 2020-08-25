@@ -63,9 +63,7 @@ may grow in the future, if we find more highly related works.
 enables ISPs to jointly control routing and compute good end-to-end paths
 while acting in their own interest.
 
-$$
-\text{cost}_I = \min_{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))
-$$
+$$\text{cost}_I = \min_{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$
 
 | Symbol                | Description |
 | ----------------------| ------------|
