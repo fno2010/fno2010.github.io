@@ -63,7 +63,7 @@ may grow in the future, if we find more highly related works.
 enables ISPs to jointly control routing and compute good end-to-end paths
 while acting in their own interest.
 
-$$\text{cost}_I = \min_{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$
+$$\text{cost}\_I = \min\_{paths} (\sum\_{p \in paths} \text{traffic}\_I(p) \times \text{intcost}\_I(p))$$
 
 | Symbol                | Description |
 | ----------------------| ------------|
@@ -89,3 +89,9 @@ compute their own internal cost based on their CDN loads.
 ### Timecard
 
 ![](timecard-fig1.png)
+
+### E2E
+
+![](e2e-fig2.png)
+
+![](e2e-fig11.png)
