@@ -54,7 +54,7 @@ may grow in the future, if we find more highly related works.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;High-level Goal&lt;/strong&gt;: design a practical interdomain routing protocol that
 enables ISPs to jointly control routing and compute good end-to-end paths
 while acting in their own interest.&lt;/p&gt;
-&lt;p&gt;$$\text{cost}&lt;em&gt;I = \min&lt;/em&gt;{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$&lt;/p&gt;
+&lt;p&gt;$$\text{cost}_I = \min_{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -95,6 +95,9 @@ compute their own internal cost based on their CDN loads.&lt;/p&gt;
 &lt;h3 id=&#34;cooperative-ip-transit-cipt&#34;&gt;Cooperative IP Transit (CIPT)&lt;/h3&gt;
 &lt;h3 id=&#34;timecard&#34;&gt;Timecard&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;timecard-fig1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;e2e&#34;&gt;E2E&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;e2e-fig2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;e2e-fig11.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
