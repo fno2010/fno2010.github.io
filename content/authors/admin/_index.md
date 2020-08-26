@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Ph.D. Candidate of Computer Science"
+role = "Ph.D. Candidate & Visiting Researcher in Computer Science"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Tongji/Yale University", url = "" } ]
+organizations = [ { name = "Tongji University", url = "https://cs.tongji.edu.cn/" }, { name = "Yale University", url= "https://cpsc.yale.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include computer networking system, data analytics system and machine learning."
@@ -80,10 +80,10 @@ user_groups = ["Researchers", "Visitors"]
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#   icon = "cv"
-#   icon_pack = "ai"
-#   link = "files/cv.pdf"
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "resume/resume.html"
 
 +++
 
