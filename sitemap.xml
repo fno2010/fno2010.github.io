@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-24T18:46:17-04:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
@@ -34,7 +34,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-08-24T18:46:17-04:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
@@ -53,63 +53,98 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/franck-le/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/geng-li/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ip-networks/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/jingxuan-zhang/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/kai-gao/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linear-programming/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/optimization/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pricing/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/qiao-xiang/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/routing/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/routing-protocols/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/systematics/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/s-di/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/y.-richard-yang/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/yeon-sup-lim/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
@@ -118,191 +153,237 @@
   </url>
   
   <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/harvey-newman/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/j.-jensen-zhang/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/unicorn/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/x.-tony-wang/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/y.-jace-liu/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bandwidth/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/chin-guok/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/re-sa/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/john-macauley/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/network-topology/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scalability/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/servers/</loc>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bandiwdth/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/computational-modeling/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/estimation/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/jun-bi/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/predictive-models/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/prophet-infocom/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>/tags/thoughput/</loc>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/cloud-computing/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/cloudware/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/container/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/d.-guo/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/g.-zeng/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/j.-zhang/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/q.-xiang/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/cloudware-cloud/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/user-experience/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/w.-wang/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/z.-wei/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/c.-huang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/chenxi-huang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/cloudware-internetware/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/dong-guo/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/j.-chang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/jinda-chang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/l.-zhang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/liqing-zhang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/micro-service/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/service/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/software-paradigm/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/cloudware-ucc/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/transparent-computing/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/wei-wang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/</loc>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>

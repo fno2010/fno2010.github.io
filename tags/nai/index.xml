@@ -1,24 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nai on From Now On</title>
+    <title>nai | From Now On</title>
     <link>/tags/nai/</link>
-    <description>Recent content in nai on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/nai/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/nai/index.xml" rel="self" type="application/rss+xml" />
+    <description>nai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>nai</title>
+      <link>/tags/nai/</link>
+    </image>
     
     <item>
       <title>Literate Review of Related Works on NAI (Network-Application Integration)</title>
       <link>/post/nai-related-work-summary/</link>
       <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
-      
       <guid>/post/nai-related-work-summary/</guid>
-      <description>Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
-To better understand new challenges on this direction, we make this literate review.</description>
+      <description>&lt;p&gt;Recently, my research interest moves to NAI (Network-Application
+Integration), which we think will become a hot direction of networking
+systems in the next few years. While it is not a totally new topic, because
+of emerging application service architectures (&lt;em&gt;e.g.&lt;/em&gt;, CDN, MEC, Live Video
+Streaming, Cloud Gaming) and networking architectures (&lt;em&gt;e.g.&lt;/em&gt;, Programmable
+Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very
+well.&lt;/p&gt;
+&lt;p&gt;To better understand new challenges on this direction, we make this literate
+review. For each particular existing work, we try to figure out the following
+questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is its design space?
+&lt;ul&gt;
+&lt;li&gt;In its design, which information is required to be fed by applications?&lt;/li&gt;
+&lt;li&gt;In its design, which information is required to be exposed by the network?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is its potential issues?
+&lt;ul&gt;
+&lt;li&gt;If possible, how easily can it be extended to other use cases?&lt;/li&gt;
+&lt;li&gt;Why it cannot work well in some cases?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-works&#34;&gt;Related Works&lt;/h2&gt;
+&lt;p&gt;As a starting point, we collect related works published on CoNEXT, SOSP,
+NSDI, and SIGCOMM from 2007 to 2019.&lt;/p&gt;
+&lt;p&gt;The current literate review covers papers in the following list. And the list
+may grow in the future, if we find more highly related works.&lt;/p&gt;
+
+&lt;div class=&#34;bibtex_display&#34; bibtexkeys=&#34;Wiser|PVM|CIPT|Timecard|Footprint|VDX|Akamai2018|Taiji|E2E&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;review-cards&#34;&gt;Review Cards&lt;/h2&gt;
+&lt;h3 id=&#34;wiser&#34;&gt;Wiser&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;High-level Goal&lt;/strong&gt;: design a practical interdomain routing protocol that
+enables ISPs to jointly control routing and compute good end-to-end paths
+while acting in their own interest.&lt;/p&gt;
+&lt;p&gt;$$\text{cost}&lt;em&gt;I = \min&lt;/em&gt;{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Symbol&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;$I$&lt;/td&gt;
+&lt;td&gt;An ISP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$paths$&lt;/td&gt;
+&lt;td&gt;All possible end-to-end paths&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{cost}_I$&lt;/td&gt;
+&lt;td&gt;Expected external cost for ISP $I$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{traffic}_I(p)$&lt;/td&gt;
+&lt;td&gt;The rate of traffic carried along path $p$ over some period&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{intcost}_I(p)$&lt;/td&gt;
+&lt;td&gt;The internal cost of path $p$ in ISP $I$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Basic Idea&lt;/strong&gt;: Each ISP estimate its own external cost and advertise to its
+neighbors the total cost to reach the destination. And each router selects
+the lowest cost path.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Potential Extension to NAI&lt;/strong&gt;: For ISPs serving their own CDN, those ISPs can
+compute their own internal cost based on their CDN loads.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Limitation&lt;/strong&gt;: Lowest-cost routing per destination may lead to congestion.&lt;/p&gt;
+&lt;h3 id=&#34;path-verification-mechanism-pvm&#34;&gt;Path Verification Mechanism (PVM)&lt;/h3&gt;
+&lt;h3 id=&#34;cooperative-ip-transit-cipt&#34;&gt;Cooperative IP Transit (CIPT)&lt;/h3&gt;
+&lt;h3 id=&#34;timecard&#34;&gt;Timecard&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;timecard-fig1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

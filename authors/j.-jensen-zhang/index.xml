@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>J. Jensen Zhang on From Now On</title>
+    <title>J. Jensen Zhang | From Now On</title>
     <link>/authors/j.-jensen-zhang/</link>
-    <description>Recent content in J. Jensen Zhang on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/authors/j.-jensen-zhang/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/j.-jensen-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Jensen Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>J. Jensen Zhang</title>
+      <link>/authors/j.-jensen-zhang/</link>
+    </image>
     
     <item>
       <title>Unicorn: Unified Resource Orchestration for Multi-Domain, Geo-Distributed Data Analytics</title>
       <link>/publication/unicorn/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>/publication/unicorn/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
       <link>/publication/re-sa/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/re-sa/</guid>
       <description></description>
     </item>

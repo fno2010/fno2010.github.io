@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on From Now On</title>
+    <title>Publications | From Now On</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
     
     <item>
       <title>Toward Optimal Software-Defined Interdomain Routing</title>
       <link>/publication/s-di/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>/publication/s-di/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>Unicorn: Unified Resource Orchestration for Multi-Domain, Geo-Distributed Data Analytics</title>
       <link>/publication/unicorn/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>/publication/unicorn/</guid>
       <description></description>
     </item>
@@ -33,7 +32,6 @@
       <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
       <link>/publication/re-sa/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/re-sa/</guid>
       <description></description>
     </item>
@@ -42,7 +40,6 @@
       <title>Prophet: Fast Accurate Model-Based Throughput Prediction for Reactive Flow in DC Networks</title>
       <link>/publication/prophet-infocom/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/prophet-infocom/</guid>
       <description></description>
     </item>
@@ -50,8 +47,7 @@
     <item>
       <title>Towards Cloudware Paradigm for Cloud Computing</title>
       <link>/publication/cloudware-cloud/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       <guid>/publication/cloudware-cloud/</guid>
       <description></description>
     </item>
@@ -60,7 +56,6 @@
       <title>Cloudware: An Emerging Software Paradigm for Cloud Computing</title>
       <link>/publication/cloudware-internetware/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/publication/cloudware-internetware/</guid>
       <description></description>
     </item>
@@ -69,7 +64,6 @@
       <title>Towards an Emerging Cloudware Paradigm for Transparent Computing</title>
       <link>/publication/cloudware-ucc/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/publication/cloudware-ucc/</guid>
       <description></description>
     </item>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kai Gao on From Now On</title>
+    <title>Kai Gao | From Now On</title>
     <link>/authors/kai-gao/</link>
-    <description>Recent content in Kai Gao on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/authors/kai-gao/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/kai-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kai Gao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>Kai Gao</title>
+      <link>/authors/kai-gao/</link>
+    </image>
     
     <item>
       <title>Toward Optimal Software-Defined Interdomain Routing</title>
       <link>/publication/s-di/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>/publication/s-di/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>Prophet: Fast Accurate Model-Based Throughput Prediction for Reactive Flow in DC Networks</title>
       <link>/publication/prophet-infocom/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/prophet-infocom/</guid>
       <description></description>
     </item>

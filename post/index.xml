@@ -1,45 +1,172 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on From Now On</title>
+    <title>Posts | From Now On</title>
     <link>/post/</link>
-    <description>Recent content in Posts on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2020 18:46:17 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
     
     <item>
       <title>Literate Review of Related Works on NAI (Network-Application Integration)</title>
       <link>/post/nai-related-work-summary/</link>
       <pubDate>Mon, 24 Aug 2020 18:46:17 -0400</pubDate>
-      
       <guid>/post/nai-related-work-summary/</guid>
-      <description>Recently, my research interest moves to NAI (Network-Application Integration), which we think will become a hot direction of networking systems in the next few years. While it is not a totally new topic, because of emerging application service architectures (e.g., CDN, MEC, Live Video Streaming, Cloud Gaming) and networking architectures (e.g., Programmable Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very well.
-To better understand new challenges on this direction, we make this literate review.</description>
+      <description>&lt;p&gt;Recently, my research interest moves to NAI (Network-Application
+Integration), which we think will become a hot direction of networking
+systems in the next few years. While it is not a totally new topic, because
+of emerging application service architectures (&lt;em&gt;e.g.&lt;/em&gt;, CDN, MEC, Live Video
+Streaming, Cloud Gaming) and networking architectures (&lt;em&gt;e.g.&lt;/em&gt;, Programmable
+Dataplane, SD-WAN, Segment Routing, New IP), previous works may not work very
+well.&lt;/p&gt;
+&lt;p&gt;To better understand new challenges on this direction, we make this literate
+review. For each particular existing work, we try to figure out the following
+questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is its design space?
+&lt;ul&gt;
+&lt;li&gt;In its design, which information is required to be fed by applications?&lt;/li&gt;
+&lt;li&gt;In its design, which information is required to be exposed by the network?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is its potential issues?
+&lt;ul&gt;
+&lt;li&gt;If possible, how easily can it be extended to other use cases?&lt;/li&gt;
+&lt;li&gt;Why it cannot work well in some cases?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-works&#34;&gt;Related Works&lt;/h2&gt;
+&lt;p&gt;As a starting point, we collect related works published on CoNEXT, SOSP,
+NSDI, and SIGCOMM from 2007 to 2019.&lt;/p&gt;
+&lt;p&gt;The current literate review covers papers in the following list. And the list
+may grow in the future, if we find more highly related works.&lt;/p&gt;
+
+&lt;div class=&#34;bibtex_display&#34; bibtexkeys=&#34;Wiser|PVM|CIPT|Timecard|Footprint|VDX|Akamai2018|Taiji|E2E&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;review-cards&#34;&gt;Review Cards&lt;/h2&gt;
+&lt;h3 id=&#34;wiser&#34;&gt;Wiser&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;High-level Goal&lt;/strong&gt;: design a practical interdomain routing protocol that
+enables ISPs to jointly control routing and compute good end-to-end paths
+while acting in their own interest.&lt;/p&gt;
+&lt;p&gt;$$\text{cost}&lt;em&gt;I = \min&lt;/em&gt;{paths} (\sum_{p \in paths} \text{traffic}_I(p) \times \text{intcost}_I(p))$$&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Symbol&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;$I$&lt;/td&gt;
+&lt;td&gt;An ISP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$paths$&lt;/td&gt;
+&lt;td&gt;All possible end-to-end paths&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{cost}_I$&lt;/td&gt;
+&lt;td&gt;Expected external cost for ISP $I$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{traffic}_I(p)$&lt;/td&gt;
+&lt;td&gt;The rate of traffic carried along path $p$ over some period&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\text{intcost}_I(p)$&lt;/td&gt;
+&lt;td&gt;The internal cost of path $p$ in ISP $I$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Basic Idea&lt;/strong&gt;: Each ISP estimate its own external cost and advertise to its
+neighbors the total cost to reach the destination. And each router selects
+the lowest cost path.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Potential Extension to NAI&lt;/strong&gt;: For ISPs serving their own CDN, those ISPs can
+compute their own internal cost based on their CDN loads.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Limitation&lt;/strong&gt;: Lowest-cost routing per destination may lead to congestion.&lt;/p&gt;
+&lt;h3 id=&#34;path-verification-mechanism-pvm&#34;&gt;Path Verification Mechanism (PVM)&lt;/h3&gt;
+&lt;h3 id=&#34;cooperative-ip-transit-cipt&#34;&gt;Cooperative IP Transit (CIPT)&lt;/h3&gt;
+&lt;h3 id=&#34;timecard&#34;&gt;Timecard&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;timecard-fig1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Present My SIGCOMM Poster in a Hubs VR Room</title>
       <link>/post/sigcomm2020-poster-present/</link>
       <pubDate>Mon, 24 Aug 2020 18:00:00 -0400</pubDate>
-      
       <guid>/post/sigcomm2020-poster-present/</guid>
-      <description>2020 is an amazing year when we experienced many many &amp;ldquo;first times&amp;rdquo;. Good news and bad news.
-First time, my first-author poster COC: Hierarchical Coflow Ordering for WAN Bandwidth Optimization in Inter-Data Center was accepted by SIGCOMM. First time, I participated SRC (Student Research Competition) in SIGCOMM. First time, I presented a poster in a Hubs VR room.
-Yes, SIGCOMM poster/demo committee decided to use Mozilla Hubs to present each poster/demo online this year.</description>
+      <description>&lt;p&gt;2020 is an amazing year when we experienced many many &lt;em&gt;&amp;ldquo;first times&amp;rdquo;&lt;/em&gt;. Good
+news and bad news.&lt;/p&gt;
+&lt;p&gt;First time, my first-author poster &lt;em&gt;COC: Hierarchical Coflow Ordering for WAN
+Bandwidth Optimization in Inter-Data Center&lt;/em&gt; was accepted by SIGCOMM. First
+time, I participated SRC (Student Research Competition) in SIGCOMM. First
+time, I presented a poster in a 
+&lt;a href=&#34;https://hubs.mozilla.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hubs&lt;/a&gt; VR room.&lt;/p&gt;
+&lt;p&gt;Yes, SIGCOMM poster/demo committee decided to use 
+&lt;a href=&#34;https://hubs.mozilla.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mozilla
+Hubs&lt;/a&gt; to present each poster/demo online this
+year. Each author was required to host a Hubs VR room and present his/her
+work in his/her own VR room online. What does it mean? It means more
+workload! You have to set up a VR room besides your pre-print A0 poster.&lt;/p&gt;
+&lt;p&gt;The SIGCOMM poster/demo session took place over August 11-12 from
+4:30pm-5:30pm ET. The time slots were friendly to me, as I was still stuck in
+US. But I believe they were not to many people in Asia.&lt;/p&gt;
+&lt;p&gt;Overall, such a experiencement is interesting enough, although some of my
+audiences failed to join the VR room. I guess they were using some lower
+performance cellphones.&lt;/p&gt;
+&lt;p&gt;The SRC is also interesting enough. I met 3 or 4 jurors. Some of them did not
+just ask questions, but also gave some helpful comments. I really appreciate.&lt;/p&gt;
+&lt;p&gt;I believe a major benefit of using the online room is that there is no limit
+about the place. It does not mean the room can hold unlimited number of
+audiences. It means the time slot is unlimited. This online room is fully
+occupied by yourself. Nobody can take it. Whenever you want to show
+something, the room is just there. So if you are interested in what I am
+working on, although the SIGCOMM conference has ended, you can still feel
+free to stop by my VR room and take a look at my work.&lt;/p&gt;
+&lt;p&gt;Here is the link to my poster VR room: &lt;a href=&#34;https://hub.link/wjYrtZ3&#34;&gt;https://hub.link/wjYrtZ3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I put the original PDF files of the 2-page abstract and the A0 poster in this
+room. You can feel free to download them without my approval. If you have any
+questions, just drop me an email to &lt;a href=&#34;mailto:jensen@jensen-zhang.site&#34;&gt;jensen@jensen-zhang.site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also send me an email to request a slot if you want a VR chat. I can
+meet you in the VR room and talk to you about my work online. Don&amp;rsquo;t be shy.
+Maybe we can be very good friends.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Research Reading List Resuming Plan</title>
       <link>/post/resume-research-reading-list/</link>
       <pubDate>Mon, 22 Apr 2019 11:41:17 -0400</pubDate>
-      
       <guid>/post/resume-research-reading-list/</guid>
-      <description>I have read a bunch of research papers in the past few years. But I fail to remember most of them because of the lack of summary and better organization. It is time to resume the research reading list for myself.
-Although there are already several very good public reading lists about computer networking, e.g., Cristian Lumezanu&amp;rsquo;s SDN Reading List and Richard Yang&amp;rsquo;s Lecture, they are so general that they do not match my research interests very well.</description>
+      <description>&lt;p&gt;I have read a bunch of research papers in the past few years. But I fail to
+remember most of them because of the lack of summary and better organization. It
+is time to resume the research reading list for myself.&lt;/p&gt;
+&lt;p&gt;Although there are already several very good public reading lists about computer
+networking, e.g., 
+&lt;a href=&#34;http://www.nec-labs.com/~lume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cristian Lumezanu&lt;/a&gt;&amp;rsquo;s 
+&lt;a href=&#34;https://sites.google.com/site/sdnreadinglist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SDN Reading List&lt;/a&gt;
+and 
+&lt;a href=&#34;http://cs.yale.edu/homes/yry&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Richard Yang&lt;/a&gt;&amp;rsquo;s 
+&lt;a href=&#34;http://zoo.cs.yale.edu/classes/cs434/cs434-2019-spring/schedule.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture&lt;/a&gt;, they are so
+general that they do not match my research interests very well.&lt;/p&gt;
+&lt;p&gt;Of course, it is hard to summarize a very comprehensive reading list
+immediately. But by following my recent research topics, I will complete the
+reading list little by little. And I will begin from the following topic: the
+interdomain network optimization for large-scale data analytics systems.&lt;/p&gt;
+&lt;h2 id=&#34;reading-list&#34;&gt;Reading List&lt;/h2&gt;
+
+&lt;div class=&#34;bibtex_display&#34; bibtexkeys=&#34;chowdhury2014efficient|chowdhury2015efficient|zhang2016coda|agarwal2018sincronia|chowdhury2016|pu2015|sambasivan2017&#34;&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;quick-highlights-of-key-techniques&#34;&gt;Quick Highlights of Key Techniques&lt;/h2&gt;
+</description>
     </item>
     
   </channel>

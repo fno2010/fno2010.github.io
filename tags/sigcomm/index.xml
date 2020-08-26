@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sigcomm on From Now On</title>
+    <title>sigcomm | From Now On</title>
     <link>/tags/sigcomm/</link>
-    <description>Recent content in sigcomm on From Now On</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 18:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/sigcomm/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/sigcomm/index.xml" rel="self" type="application/rss+xml" />
+    <description>sigcomm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2020 18:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>sigcomm</title>
+      <link>/tags/sigcomm/</link>
+    </image>
     
     <item>
       <title>Present My SIGCOMM Poster in a Hubs VR Room</title>
       <link>/post/sigcomm2020-poster-present/</link>
       <pubDate>Mon, 24 Aug 2020 18:00:00 -0400</pubDate>
-      
       <guid>/post/sigcomm2020-poster-present/</guid>
-      <description>2020 is an amazing year when we experienced many many &amp;ldquo;first times&amp;rdquo;. Good news and bad news.
-First time, my first-author poster COC: Hierarchical Coflow Ordering for WAN Bandwidth Optimization in Inter-Data Center was accepted by SIGCOMM. First time, I participated SRC (Student Research Competition) in SIGCOMM. First time, I presented a poster in a Hubs VR room.
-Yes, SIGCOMM poster/demo committee decided to use Mozilla Hubs to present each poster/demo online this year.</description>
+      <description>&lt;p&gt;2020 is an amazing year when we experienced many many &lt;em&gt;&amp;ldquo;first times&amp;rdquo;&lt;/em&gt;. Good
+news and bad news.&lt;/p&gt;
+&lt;p&gt;First time, my first-author poster &lt;em&gt;COC: Hierarchical Coflow Ordering for WAN
+Bandwidth Optimization in Inter-Data Center&lt;/em&gt; was accepted by SIGCOMM. First
+time, I participated SRC (Student Research Competition) in SIGCOMM. First
+time, I presented a poster in a 
+&lt;a href=&#34;https://hubs.mozilla.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hubs&lt;/a&gt; VR room.&lt;/p&gt;
+&lt;p&gt;Yes, SIGCOMM poster/demo committee decided to use 
+&lt;a href=&#34;https://hubs.mozilla.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mozilla
+Hubs&lt;/a&gt; to present each poster/demo online this
+year. Each author was required to host a Hubs VR room and present his/her
+work in his/her own VR room online. What does it mean? It means more
+workload! You have to set up a VR room besides your pre-print A0 poster.&lt;/p&gt;
+&lt;p&gt;The SIGCOMM poster/demo session took place over August 11-12 from
+4:30pm-5:30pm ET. The time slots were friendly to me, as I was still stuck in
+US. But I believe they were not to many people in Asia.&lt;/p&gt;
+&lt;p&gt;Overall, such a experiencement is interesting enough, although some of my
+audiences failed to join the VR room. I guess they were using some lower
+performance cellphones.&lt;/p&gt;
+&lt;p&gt;The SRC is also interesting enough. I met 3 or 4 jurors. Some of them did not
+just ask questions, but also gave some helpful comments. I really appreciate.&lt;/p&gt;
+&lt;p&gt;I believe a major benefit of using the online room is that there is no limit
+about the place. It does not mean the room can hold unlimited number of
+audiences. It means the time slot is unlimited. This online room is fully
+occupied by yourself. Nobody can take it. Whenever you want to show
+something, the room is just there. So if you are interested in what I am
+working on, although the SIGCOMM conference has ended, you can still feel
+free to stop by my VR room and take a look at my work.&lt;/p&gt;
+&lt;p&gt;Here is the link to my poster VR room: &lt;a href=&#34;https://hub.link/wjYrtZ3&#34;&gt;https://hub.link/wjYrtZ3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I put the original PDF files of the 2-page abstract and the A0 poster in this
+room. You can feel free to download them without my approval. If you have any
+questions, just drop me an email to &lt;a href=&#34;mailto:jensen@jensen-zhang.site&#34;&gt;jensen@jensen-zhang.site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also send me an email to request a slot if you want a VR chat. I can
+meet you in the VR room and talk to you about my work online. Don&amp;rsquo;t be shy.
+Maybe we can be very good friends.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
