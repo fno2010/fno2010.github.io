@@ -5,12 +5,20 @@
     <link>/publication_types/2/</link>
       <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
       <title>2</title>
       <link>/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Prophet: Toward Fast, Error-Tolerant Model-Based Throughput Prediction for Reactive Flows in DC Networks</title>
+      <link>/publication/prophet-ton/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/prophet-ton/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unicorn: Unified Resource Orchestration for Multi-Domain, Geo-Distributed Data Analytics</title>

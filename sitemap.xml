@@ -3,8 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jingxuan-zhang/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jun-bi/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kai-gao/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/prophet-ton/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/y.-richard-yang/</loc>
+    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
   </url>
   
   <url>
@@ -58,11 +103,6 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/franck-le/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
@@ -78,38 +118,18 @@
   </url>
   
   <url>
-    <loc>/authors/jingxuan-zhang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/kai-gao/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/linear-programming/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/optimization/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/pricing/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
@@ -138,11 +158,6 @@
   </url>
   
   <url>
-    <loc>/authors/y.-richard-yang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/yeon-sup-lim/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
@@ -150,11 +165,6 @@
   <url>
     <loc>/post/resume-research-reading-list/</loc>
     <lastmod>2019-04-22T11:41:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
@@ -220,41 +230,6 @@
   <url>
     <loc>/tags/servers/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/bandiwdth/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/computational-modeling/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/estimation/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/jun-bi/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/predictive-models/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/prophet-infocom/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/thoughput/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
