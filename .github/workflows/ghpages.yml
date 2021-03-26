@@ -1,0 +1,42 @@
+name: "Deploy GitHub Pages"
+
+on:
+  push:
+    branches:
+      - hugo
+    paths-ignore:
+      - README.md
+      - LICENSE
+      - netlify.toml
+      - update_academic.sh
+      - view.bat
+      - view.sh
+      - .editorconfig
+      - .gitignore
+      - .travis.yml
+
+jobs:
+  deploy:
+    name: "Deploy Site"
+    runs-on: ubuntu-18.04
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+    
+      - name: "Setup Hugo"
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.3'
+          extended: true
+      
+      - name: "Build"
+        run: hugo
+      
+      - name: "Deploy"
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
