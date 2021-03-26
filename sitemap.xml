@@ -3,22 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anais-escribano/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/francisco-cano/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/isp-cdn-collaboration/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/jingxuan-zhang/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kai-gao/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/luis-contreras/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/network-awareness/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/patricia-cano/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/sextant-im/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/y.-richard-yang/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/spp-infocom/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ning-luo/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/qiao-xiang/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ruzica-piskac/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/timos-antonopoulos/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yichao-chen/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
     <lastmod>2020-11-25T11:03:05+08:00</lastmod>
   </url>
   
@@ -28,27 +123,7 @@
   </url>
   
   <url>
-    <loc>/authors/kai-gao/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/prophet-ton/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-11-25T11:03:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/y.-richard-yang/</loc>
     <lastmod>2020-11-25T11:03:05+08:00</lastmod>
   </url>
   
@@ -78,11 +153,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/poster/</loc>
     <lastmod>2020-08-24T18:00:00-04:00</lastmod>
   </url>
@@ -98,8 +168,23 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
+    <loc>/tags/bandwidth-allocation/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/coc-sigcomm-poster/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/coflow/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/software-defined-wan/</loc>
+    <lastmod>2021-03-26T10:19:10+08:00</lastmod>
   </url>
   
   <url>
@@ -130,11 +215,6 @@
   <url>
     <loc>/tags/pricing/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/qiao-xiang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
@@ -173,22 +253,17 @@
   </url>
   
   <url>
-    <loc>/authors/j.-jensen-zhang/</loc>
-    <lastmod>2020-08-25T19:26:17-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/unicorn/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/x.-tony-wang/</loc>
+    <loc>/authors/xin-wang/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/y.-jace-liu/</loc>
+    <loc>/authors/yang-liu/</loc>
     <lastmod>2020-08-25T19:26:17-04:00</lastmod>
   </url>
   
@@ -248,22 +323,12 @@
   </url>
   
   <url>
-    <loc>/authors/d.-guo/</loc>
+    <loc>/authors/dong-guo/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/g.-zeng/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/j.-zhang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/q.-xiang/</loc>
+    <loc>/authors/guosun-zeng/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
@@ -278,17 +343,12 @@
   </url>
   
   <url>
-    <loc>/authors/w.-wang/</loc>
+    <loc>/authors/wei-wang/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/z.-wei/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/c.-huang/</loc>
+    <loc>/authors/zerong-wei/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
@@ -303,22 +363,7 @@
   </url>
   
   <url>
-    <loc>/authors/dong-guo/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/j.-chang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/jinda-chang/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/l.-zhang/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   
@@ -349,11 +394,6 @@
   
   <url>
     <loc>/tags/transparent-computing/</loc>
-    <lastmod>2020-08-25T19:26:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/wei-wang/</loc>
     <lastmod>2020-08-25T19:26:18-04:00</lastmod>
   </url>
   

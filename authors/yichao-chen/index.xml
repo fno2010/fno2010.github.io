@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yichao Chen | From Now On</title>
+    <link>/authors/yichao-chen/</link>
+      <atom:link href="/authors/yichao-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yichao Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>Yichao Chen</title>
+      <link>/authors/yichao-chen/</link>
+    </image>
+    
+    <item>
+      <title>Looking for the Maximum Independent Set: A New Perspective on the Stable Path Problem</title>
+      <link>/publication/spp-infocom/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/spp-infocom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

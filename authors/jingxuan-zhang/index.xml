@@ -5,7 +5,7 @@
     <link>/authors/jingxuan-zhang/</link>
       <atom:link href="/authors/jingxuan-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingxuan Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
       <title>Jingxuan Zhang</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Sextant: Enabling Automated Network-aware Application Optimization in Carrier Networks</title>
+      <link>/publication/sextant-im/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sextant-im/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Looking for the Maximum Independent Set: A New Perspective on the Stable Path Problem</title>
+      <link>/publication/spp-infocom/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/spp-infocom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Prophet: Toward Fast, Error-Tolerant Model-Based Throughput Prediction for Reactive Flows in DC Networks</title>
       <link>/publication/prophet-ton/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/publication/prophet-ton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COC: Hierarchical Coflow Ordering for WAN Bandwidth Optimization in Inter-Data Center</title>
+      <link>/publication/coc-sigcomm-poster/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/coc-sigcomm-poster/</guid>
       <description></description>
     </item>
     
@@ -29,10 +53,42 @@
     </item>
     
     <item>
+      <title>Unicorn: Unified Resource Orchestration for Multi-Domain, Geo-Distributed Data Analytics</title>
+      <link>/publication/unicorn/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/unicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Grained, Multi-Domain Network Resource Abstraction as a Fundamental Primitive to Enable High-Performance, Collaborative Data Sciences</title>
+      <link>/publication/re-sa/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/re-sa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Cloudware Paradigm for Cloud Computing</title>
+      <link>/publication/cloudware-cloud/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cloudware-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cloudware: An Emerging Software Paradigm for Cloud Computing</title>
       <link>/publication/cloudware-internetware/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/cloudware-internetware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Emerging Cloudware Paradigm for Transparent Computing</title>
+      <link>/publication/cloudware-ucc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cloudware-ucc/</guid>
       <description></description>
     </item>
     

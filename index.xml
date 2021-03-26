@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>From Now On</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
       <title>From Now On</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Sextant: Enabling Automated Network-aware Application Optimization in Carrier Networks</title>
+      <link>/publication/sextant-im/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sextant-im/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Looking for the Maximum Independent Set: A New Perspective on the Stable Path Problem</title>
+      <link>/publication/spp-infocom/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/spp-infocom/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prophet: Toward Fast, Error-Tolerant Model-Based Throughput Prediction for Reactive Flows in DC Networks</title>
@@ -55,7 +71,7 @@ NSDI, and SIGCOMM from 2007 to 2019.&lt;/p&gt;
 &lt;p&gt;The current literate review covers papers in the following list. And the list
 may grow in the future, if we find more highly related works.&lt;/p&gt;
 
-&lt;div class=&#34;bibtex_display&#34; bibtexkeys=&#34;Wiser|PVM|CIPT|Timecard|Footprint|VDX|Akamai2018|Taiji|E2E&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bibtex_display&#34; bibtexkey=&#34;Wiser|PVM|CIPT|Timecard|Footprint|VDX|Akamai2018|Taiji|E2E&#34;&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;review-cards&#34;&gt;Review Cards&lt;/h2&gt;
 &lt;h3 id=&#34;wiser&#34;&gt;Wiser&lt;/h3&gt;
@@ -153,6 +169,14 @@ Maybe we can be very good friends.&lt;/p&gt;
     </item>
     
     <item>
+      <title>COC: Hierarchical Coflow Ordering for WAN Bandwidth Optimization in Inter-Data Center</title>
+      <link>/publication/coc-sigcomm-poster/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/coc-sigcomm-poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Toward Optimal Software-Defined Interdomain Routing</title>
       <link>/publication/s-di/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
@@ -182,7 +206,7 @@ reading list little by little. And I will begin from the following topic: the
 interdomain network optimization for large-scale data analytics systems.&lt;/p&gt;
 &lt;h2 id=&#34;reading-list&#34;&gt;Reading List&lt;/h2&gt;
 
-&lt;div class=&#34;bibtex_display&#34; bibtexkeys=&#34;chowdhury2014efficient|chowdhury2015efficient|zhang2016coda|agarwal2018sincronia|chowdhury2016|pu2015|sambasivan2017&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bibtex_display&#34; bibtexkey=&#34;chowdhury2014efficient|chowdhury2015efficient|zhang2016coda|agarwal2018sincronia|chowdhury2016|pu2015|sambasivan2017&#34;&gt;&lt;/div&gt;
 
 &lt;h2 id=&#34;quick-highlights-of-key-techniques&#34;&gt;Quick Highlights of Key Techniques&lt;/h2&gt;
 </description>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ning Luo | From Now On</title>
+    <link>/authors/ning-luo/</link>
+      <atom:link href="/authors/ning-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ning Luo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
+      <title>Ning Luo</title>
+      <link>/authors/ning-luo/</link>
+    </image>
+    
+    <item>
+      <title>Looking for the Maximum Independent Set: A New Perspective on the Stable Path Problem</title>
+      <link>/publication/spp-infocom/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/spp-infocom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

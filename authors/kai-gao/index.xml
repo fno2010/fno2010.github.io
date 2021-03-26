@@ -5,12 +5,20 @@
     <link>/authors/kai-gao/</link>
       <atom:link href="/authors/kai-gao/index.xml" rel="self" type="application/rss+xml" />
     <description>Kai Gao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu3e34e5a2bb4f4cfff97a5b00f921c36c_36701_300x300_fit_lanczos_2.png</url>
       <title>Kai Gao</title>
       <link>/authors/kai-gao/</link>
     </image>
+    
+    <item>
+      <title>Sextant: Enabling Automated Network-aware Application Optimization in Carrier Networks</title>
+      <link>/publication/sextant-im/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sextant-im/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prophet: Toward Fast, Error-Tolerant Model-Based Throughput Prediction for Reactive Flows in DC Networks</title>
