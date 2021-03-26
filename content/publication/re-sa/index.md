@@ -7,9 +7,9 @@ subtitle: ''
 summary: ''
 authors:
 - Qiao Xiang
-- J. Jensen Zhang
-- X. Tony Wang
-- Y. Jace Liu
+- Jingxuan Zhang
+- Xin Wang
+- Yang Liu
 - Chin Guok
 - Franck Le
 - John MacAuley

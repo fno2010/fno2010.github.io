@@ -86,18 +86,20 @@ privacy_pack = false
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "jensen@jensen-zhang.site"
-phone = "+1 475-300-8033"
+# phone = "+1 475-300-8033"
+phone = "+86 188-1759-8700"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "51 Prospect Street", city = "New Haven", region = "CT", postcode = "06511", country = "United States", country_code = "US"}
+# address = {street = "51 Prospect Street", city = "New Haven", region = "CT", postcode = "06511", country = "United States", country_code = "US"}
+address = {street = "4800 Cao'an Hwy", city = "Shanghai", postcode = "201804", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 # coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = "WORKING FROM HOME BECAUSE OF COVID-19"
+office_hours = "9:30 to 23:00 every weekday"
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"

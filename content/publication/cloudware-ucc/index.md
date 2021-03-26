@@ -5,13 +5,13 @@ title: Towards an Emerging Cloudware Paradigm for Transparent Computing
 subtitle: ''
 summary: ''
 authors:
-- W. Wang
-- J. Zhang
-- D. Guo
-- Q. Xiang
-- C. Huang
-- J. Chang
-- L. Zhang
+- Wei Wang
+- Jingxuan Zhang
+- Dong Guo
+- Qiao Xiang
+- Chenxi Huang
+- Jinda Chang
+- Liqing Zhang
 tags:
 - Cloud computing
 - Cloudware

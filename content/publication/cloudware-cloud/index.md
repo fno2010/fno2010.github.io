@@ -5,12 +5,12 @@ title: Towards Cloudware Paradigm for Cloud Computing
 subtitle: ''
 summary: ''
 authors:
-- D. Guo
-- W. Wang
-- J. Zhang
-- G. Zeng
-- Q. Xiang
-- Z. Wei
+- Dong Guo
+- Wei Wang
+- Jingxuan Zhang
+- Guosun Zeng
+- Qiao Xiang
+- Zerong Wei
 tags:
 - Cloud computing
 - Cloudware

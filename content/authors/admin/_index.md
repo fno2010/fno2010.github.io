@@ -3,7 +3,7 @@
 name = "Jingxuan (Jensen) Zhang"
 
 # Username (this should match the folder name)
-authors = ["admin"]
+authors = ["admin", "j.-jensen-zhang"]
 
 # Is this the primary user of the site?
 superuser = true
@@ -23,7 +23,7 @@ email = "jingxuan.n.zhang@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Computer Networking",
+  "Network-App Integration",
   "Data Analytics",
   "Machine Learning"
 ]
@@ -34,24 +34,24 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Visiting Assistant in Research in Computer Science"
-  institution = "Yale University"
-  year = 2018
+  course = "Ph.D. in Computer Science"
+  institution = "Tongji University"
+  year = "2017 - Present"
 
 [[education.courses]]
-  course = "B.Sc., M.Sc. & Ph.D. in Computer Science"
+  course = "Visiting Assistant in Research in Computer Science"
+  institution = "Yale University"
+  year = "2018 - 2020"
+
+[[education.courses]]
+  course = "B.Sc., M.Sc. in Computer Science"
   institution = "Tongji University"
-  year = "2012, 2015 & 2017"
+  year = "2012 - 2017"
 
 [[education.courses]]
   course = "B.Sc. in Mathematics"
   institution = "Tongji University"
   year = 2011
-
-# [[education.courses]]
-#   course = "BSc in Computer Science"
-#   institution = "Tongji University"
-#   year = 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -91,6 +91,6 @@ Love mathematics and logic, especially algebra.
 
 Love Free Software. I'm a very fan of RMS.
 
-DIY drone and the flight controller.
+DIY drone and flight controller.
 
 Bicycling and playing harmonica.
